@@ -1,0 +1,32 @@
+.img1 {
+    --clip-start: ellipse(0 0 at 0 0);
+    --clip-end: ellipse(150% 150% at 0 0);
+}
+.img2 {
+    --clip-start: inset(100% 0 0 0);
+    --clip-end: inset(0 0 0 0);
+}
+.img3 {
+    --clip-start: ellipse(0 0 at 100% 0);
+    --clip-end: ellipse(150% 150% at 100% 0);
+}
+.img4 {
+    --clip-start: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
+    --clip-end: polygon(-50% 50%, 50% -50%, 150% 50%, 50% 150%);
+}
+.img5 {
+    --clip-start: circle(0);
+    --clip-end: circle(125%);
+}
+.img6 {
+    --clip-start: inset(100% 100% 100% 100%);
+    --clip-end: inset(0 0 0 0);
+}
+.img7 {
+    --clip-start: ellipse(0 0 at 0 100%);
+    --clip-end: ellipse(150% 150% at 0 100%);
+}
+.img8 {
+    --clip-start: inset(0 0 100% 0);
+    --clip-end: inset(0 0 0 0);
+}

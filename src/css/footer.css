@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,700&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+body a {
+  text-decoration: none;
+}
+body ul {
+  padding-left: 0px;
+  list-style: none;
+  margin-bottom: 0px;
+}
+body h2 {
+  text-transform: capitalize;
+}
+body * {
+  box-sizing: border-box;
+}
+
+footer {
+  padding-top: 50px;
+  background-color: rgb(28, 29, 36);
+}
+footer h2 {
+  margin-bottom: 50px;
+  text-align: center;
+  font-style: normal;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 30px;
+  line-height: 50px;
+  color: rgb(243, 243, 243);
+}
+footer .logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+footer .logo img {
+  max-width: 100%;
+  width: 100%;
+}
+footer .footer-links h3,
+footer .social-media-links h3,
+footer .adress h3 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #e94444;
+  margin-bottom: 20px;
+}
+footer .footer-links ul,
+footer .social-media-links ul,
+footer .adress ul {
+  padding-left: 0px;
+}
+footer .footer-links ul li,
+footer .social-media-links ul li,
+footer .adress ul li {
+  margin-bottom: 15px;
+}
+footer .footer-links ul li a,
+footer .social-media-links ul li a,
+footer .adress ul li a {
+  color: rgb(243, 243, 243);
+  text-transform: uppercase;
+}
+footer .adress ul li {
+  color: rgb(243, 243, 243);
+  position: relative;
+}
+footer .adress ul li i {
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  left: -30px;
+}
+footer .bb {
+  padding-bottom: 50px;
+  border-bottom: 2px solid rgb(255, 216, 27);
+}
+footer .copyright {
+  color: #fff;
+  padding: 20px 0px;
+  text-align: center;
+}/*# sourceMappingURL=footer.css.map */

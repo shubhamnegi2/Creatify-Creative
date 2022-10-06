@@ -1,0 +1,97 @@
+// Montserrat
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,700&display=swap");
+// $primary-color:
+// $secondary-color:
+$text-color: rgba(64, 66, 82, 1);
+$text-color2: rgba(28, 29, 36, 1);
+$heading-color: #e94444;
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    a {
+        text-decoration: none;
+    }
+    ul {
+        padding-left: 0px;
+        list-style: none;
+        margin-bottom: 0px;
+    }
+    h2 {
+        text-transform: capitalize;
+    }
+    * {
+        box-sizing: border-box;
+    }
+}
+footer {
+    padding-top: 50px;
+    background-color: $text-color2;
+    h2 {
+        margin-bottom: 50px;
+        text-align: center;
+        font-style: normal;
+        font-family: "Montserrat Alternates", sans-serif;
+        font-size: 30px;
+        line-height: 50px;
+        color: rgba(243, 243, 243, 1);
+    }
+    .logo {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        img {
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+    .footer-links,
+    .social-media-links,
+    .adress {
+        h3 {
+            font-weight: 700;
+            font-size: 16px;
+            color: $heading-color;
+            margin-bottom: 20px;
+        }
+        ul {
+            padding-left: 0px;
+            li {
+                margin-bottom: 15px;
+                a {
+                    color: rgba(243, 243, 243, 1);
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    .adress {
+        ul {
+            li {
+                color: rgba(243, 243, 243, 1);
+                position: relative;
+                i {
+                    font-size: 20px;
+                    position: absolute;
+                    top: 5px;
+                    left: -30px;
+                }
+            }
+        }
+    }
+
+    .bb {
+        padding-bottom: 50px;
+        border-bottom: 2px solid rgba(255, 216, 27, 1);
+    }
+    .copyright {
+        color: #fff;
+        padding: 20px 0px;
+        text-align: center;
+    }
+}
